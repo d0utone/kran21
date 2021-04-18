@@ -16,7 +16,7 @@ export default function Home({ pageData }) {
 
 const HomeIntro = ({ content }) => (
   <div
-    className="px-12 w-full align-left"
+    className="px-12 w-full text-center"
     dangerouslySetInnerHTML={{ __html: content }}
   />
 );
